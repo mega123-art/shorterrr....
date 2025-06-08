@@ -1,4 +1,4 @@
-# LinkSnap - Modern URL Shortener 🔗
+# Shorterrr - Modern URL Shortener 🔗
 
 A sleek and modern URL shortening service built with the MERN stack (MongoDB, Express.js, React, Node.js).
 
@@ -41,3 +41,15 @@ A sleek and modern URL shortening service built with the MERN stack (MongoDB, Ex
 ### Installation
 
 1. Clone the repository
+```bash
+cd frontend
+npm install
+npm run dev
+```
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+
