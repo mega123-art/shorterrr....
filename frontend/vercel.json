@@ -1,0 +1,14 @@
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "env": {
+    "VITE_API_URL": "https://shorterrr-backend.onrender.com",
+    "VITE_BASE_URL": "https://shorterrr-backend.onrender.com",
+    "VITE_APP_NAME": "Shorterrr",
+    "VITE_APP_DESCRIPTION": "URL Shortener",
+    "VITE_ENABLE_ANALYTICS": "true",
+    "VITE_ENABLE_QR_CODE": "true"
+  }
+}
